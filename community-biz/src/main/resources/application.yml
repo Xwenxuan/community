@@ -16,12 +16,12 @@ server:
 spring:
   application:
     name: cloud-biz
-  cloud:
-    consul: ##把服务注册到consul中
-      host: localhost
-      port: 8500
-      discovery:
-        service-name: ${spring.application.name}
+#  cloud:
+#    consul: ##把服务注册到consul中
+#      host: localhost
+#      port: 8500
+#      discovery:
+#        service-name: ${spring.application.name}
   datasource:
     type: com.alibaba.druid.pool.DruidDataSource      #当前数据源操作类型
     driver-class-name: com.mysql.cj.jdbc.Driver       #mysql驱动包

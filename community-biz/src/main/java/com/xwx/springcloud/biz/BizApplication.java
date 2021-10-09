@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 //@EnableFeignClients(basePackages = "com.xwx.springcloud.api.proxy") 这是调用其他的微服务
 @ComponentScan({"com.xwx.springcloud"})
 @MapperScan("com.xwx.springcloud.core.dao")
-@EnableDiscoveryClient
+//@EnableDiscoveryClient 服务发现的
 public class BizApplication {
 
     public static void main(String[] args) {

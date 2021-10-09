@@ -6,6 +6,13 @@ package com.xwx.springcloud.api.constants;
 public class FeignClientsConstant {
 
 
+    public static class Index{
+        public static final String APPLICATION_NAME = "community";
+        public static final String CONTEXT_ID_PREFIX = "index-";
+
+        public static final String INDEX = CONTEXT_ID_PREFIX + "index";
+    }
+
     public static class Admin {
 
         public static final String APPLICATION_NAME = "cloud-biz";

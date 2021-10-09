@@ -55,13 +55,21 @@
             <property name="enableSubPackages" value="true"/>
         </javaClientGenerator>
 
-                <table tableName="t_student" domainObjectName="StudentEntity"
-                       enableCountByExample="false"
-                       enableUpdateByExample="false"
-                       enableDeleteByExample="false"
-                       enableSelectByExample="false"
-                       selectByExampleQueryId="false">
-                    <generatedKey column="id" sqlStatement="JDBC" identity="true"/>
-                </table>
+<!--        <table tableName="t_student" domainObjectName="StudentEntity"-->
+<!--               enableCountByExample="false"-->
+<!--               enableUpdateByExample="false"-->
+<!--               enableDeleteByExample="false"-->
+<!--               enableSelectByExample="false"-->
+<!--               selectByExampleQueryId="false">-->
+<!--            <generatedKey column="id" sqlStatement="JDBC" identity="true"/>-->
+<!--        </table>-->
+        <table tableName="discuss_post" domainObjectName="DiscussPostEntity"
+               enableCountByExample="false"
+               enableUpdateByExample="false"
+               enableDeleteByExample="false"
+               enableSelectByExample="false"
+               selectByExampleQueryId="false">
+            <generatedKey column="id" sqlStatement="JDBC" identity="true"/>
+        </table>
     </context>
 </generatorConfiguration>
