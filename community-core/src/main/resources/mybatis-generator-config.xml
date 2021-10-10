@@ -27,8 +27,8 @@
         <!--            <property name="remarks" value="true"/>-->
         <!--        </jdbcConnection>-->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1:3306/mybatis"
-                        userId="root" password="">
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/community?serverTimezone=GMT%2B8"
+                        userId="root" password="asd3480685987">
             <!--设置可以获取tables remarks信息-->
             <property name="useInformationSchema" value="true"/>
             <!--设置可以获取remarks信息-->
@@ -63,7 +63,15 @@
 <!--               selectByExampleQueryId="false">-->
 <!--            <generatedKey column="id" sqlStatement="JDBC" identity="true"/>-->
 <!--        </table>-->
-        <table tableName="discuss_post" domainObjectName="DiscussPostEntity"
+<!--        <table tableName="discuss_post" domainObjectName="DiscussPostEntity"-->
+<!--               enableCountByExample="false"-->
+<!--               enableUpdateByExample="false"-->
+<!--               enableDeleteByExample="false"-->
+<!--               enableSelectByExample="false"-->
+<!--               selectByExampleQueryId="false">-->
+<!--            <generatedKey column="id" sqlStatement="JDBC" identity="true"/>-->
+<!--        </table>-->
+        <table tableName="user" domainObjectName="UserEntity"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
