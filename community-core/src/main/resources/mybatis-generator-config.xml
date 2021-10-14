@@ -27,8 +27,8 @@
         <!--            <property name="remarks" value="true"/>-->
         <!--        </jdbcConnection>-->
         <jdbcConnection driverClass="com.mysql.cj.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1:3306/community?serverTimezone=GMT%2B8"
-                        userId="root" password="asd3480685987">
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/community"
+                        userId="root" password="">
             <!--设置可以获取tables remarks信息-->
             <property name="useInformationSchema" value="true"/>
             <!--设置可以获取remarks信息-->
@@ -71,7 +71,7 @@
 <!--               selectByExampleQueryId="false">-->
 <!--            <generatedKey column="id" sqlStatement="JDBC" identity="true"/>-->
 <!--        </table>-->
-        <table tableName="user" domainObjectName="UserEntity"
+        <table tableName="t_user" domainObjectName="UserEntity"
                enableCountByExample="false"
                enableUpdateByExample="false"
                enableDeleteByExample="false"
